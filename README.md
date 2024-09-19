@@ -28,14 +28,14 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Documentation
-A complete Bold Reports documentation can be found on [Bold Reports Help](https://help.boldreports.com/embedded-reporting/javascript-reporting/).
+A complete Bold Reports documentation can be found on [Bold Reports Help](https://help.boldreports.com/embedded-reporting/javascript-reporting/?utm_source=github&utm_medium=backlinks).
 
-- [Report Viewer Integration in Vue.js](https://help.boldreports.com/embedded-reporting/javascript-reporting/report-viewer/faq/add-web-report-viewer-to-a-vue-application/)
-- [Report Designer Integration in Vue.js](https://help.boldreports.com/embedded-reporting/javascript-reporting/report-designer/faq/add-web-report-designer-to-a-vue-application/)
+- [Report Viewer Integration in Vue.js](https://help.boldreports.com/embedded-reporting/javascript-reporting/report-viewer/faq/add-web-report-viewer-to-a-vue-application/?utm_source=github&utm_medium=backlinks)
+- [Report Designer Integration in Vue.js](https://help.boldreports.com/embedded-reporting/javascript-reporting/report-designer/faq/add-web-report-designer-to-a-vue-application/?utm_source=github&utm_medium=backlinks)
 
 
 ## Support and Feedback
 
-- For any other queries, reach our [Bold Reports support team](https://support.boldreports.com) or [Feedback portal](https://www.boldreports.com/feedback/).
+- For any other queries, reach our [Bold Reports support team](https://support.boldreports.com/?utm_source=github&utm_medium=backlinks) or [Feedback portal](https://www.boldreports.com/feedback/?utm_source=github&utm_medium=backlinks).
 
 - To renew the subscription, click here or contact our sales team at https://www.boldreports.com/contact.
