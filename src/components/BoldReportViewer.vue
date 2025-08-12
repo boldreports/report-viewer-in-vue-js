@@ -5,18 +5,19 @@
   </div>
 </template>
 <script>
+import { onMounted } from 'vue';
 export default {
-  name: "BoldReportViewer",
-  mounted() {
-    window.$("#viewer").boldReportViewer({
-      reportServiceUrl:
-        "https://demos.boldreports.com/services/api/ReportViewerWebApi",
-      reportPath: "~/Resources/demos/sales-order-detail.rdl",
+  name: 'BoldReportViewer',
+  setup() {
+    onMounted(() => {
+      window.$('#viewer').boldReportViewer({
+        reportServiceUrl:"https://demos.boldreports.com/services/api/ReportViewer",
+        reportPath:'~/Resources/docs/sales-order-detail.rdl'
+      });
     });
-  },
+  }
 };
 </script>
-
 <style scoped>
 #viewer {
   min-height: 600px;
