@@ -9,8 +9,7 @@ export default {
   name: "BoldReportDesigner",
   mounted() {
     window.$("#designer").boldReportDesigner({
-      serviceUrl:
-        "https://demos.boldreports.com/services/api/ReportDesignerWebApi",
+      serviceUrl: "https://demos.boldreports.com/services/api/ReportingAPI"
     });
   },
 };

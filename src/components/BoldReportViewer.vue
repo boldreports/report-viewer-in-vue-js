@@ -9,9 +9,8 @@ export default {
   name: "BoldReportViewer",
   mounted() {
     window.$("#viewer").boldReportViewer({
-      reportServiceUrl:
-        "https://demos.boldreports.com/services/api/ReportViewerWebApi",
-      reportPath: "~/Resources/demos/sales-order-detail.rdl",
+      reportServiceUrl:"https://demos.boldreports.com/services/api/ReportViewer",
+      reportPath:'~/Resources/docs/sales-order-detail.rdl'
     });
   },
 };

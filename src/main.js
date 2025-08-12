@@ -3,13 +3,10 @@ import './globals'
 
 
 
-//Report Viewer source
-import '@boldreports/javascript-reporting-controls/Scripts/bold.report-viewer.min';
-import '@boldreports/javascript-reporting-controls/Scripts/bold.report-designer.min';
-
-//Data-Visualization
-import '@boldreports/javascript-reporting-controls/Scripts/data-visualization/ej.bulletgraph.min';
-import '@boldreports/javascript-reporting-controls/Scripts/data-visualization/ej.chart.min';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/common/bold.reports.common.min';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/common/bold.reports.widgets.min';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/bold.report-viewer.min';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/bold.report-designer.min';
 
 Vue.config.productionTip = false
 
