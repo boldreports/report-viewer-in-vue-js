@@ -2,30 +2,33 @@
 
 This repository contains the HTML5/JavaScript Report Viewer and Report Designer integration sample in [`Vue.js`](https://vuejs.org/). It empower your web application with feature-rich report preview, edit, and customization capabilities that allow you to explore data easily and make real-time decisions. Effortlessly print and export reports.
 
-## Project setup
+## Project Setup
 
-### Install
-```
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
+### Compile and Minify for Production
+
+```sh
 npm run build
 ```
 
 ### Lints and fixes files
-```
+
+```sh
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Documentation
 A complete Bold Reports documentation can be found on [Bold Reports Help](https://help.boldreports.com/embedded-reporting/javascript-reporting/?utm_source=github&utm_medium=backlinks).

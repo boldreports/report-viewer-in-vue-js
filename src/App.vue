@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <img alt="Vue logo" src="./assets/logo.png">  
+     <img alt="Vue logo" src="/favicon.ico">  
     <ul>
       <li><a href="/report-viewer" target="_self" rel="noopener">Report Viewer</a></li>
       <li><a href="/report-designer" target="_self" rel="noopener">Report Designer</a></li>  
@@ -8,14 +8,11 @@
     </ul>
   </div>
 </template>
-
 <script>
-
 export default {
   name: 'App' 
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -25,7 +22,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-
 ul {
   list-style-type: none;
   padding: 0;

@@ -5,14 +5,16 @@
   </div>
 </template>
 <script>
+import { onMounted } from 'vue';
 export default {
-  name: "BoldReportDesigner",
-  mounted() {
-    window.$("#designer").boldReportDesigner({
-      serviceUrl:
-        "https://demos.boldreports.com/services/api/ReportDesignerWebApi",
+  name: 'BoldReportDesigner',
+  setup() {
+    onMounted(() => {
+      window.$('#designer').boldReportDesigner({
+        serviceUrl: "https://demos.boldreports.com/services/api/ReportingAPI"
+      });
     });
-  },
+  }
 };
 </script>
 <style scoped>
