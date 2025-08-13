@@ -11,7 +11,7 @@
     "@boldreports/javascript-reporting-controls": "10.1.17",
     "core-js": "3.6.5",
     "jquery": "3.6.0",
-    "vue": "2.6.11"
+    "vue": "2.7.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.0",
